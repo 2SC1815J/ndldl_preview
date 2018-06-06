@@ -11,7 +11,7 @@
 // @require     https://code.jquery.com/jquery-1.12.4.min.js
 // @require     https://code.jquery.com/ui/1.9.2/jquery-ui.min.js
 // @grant       GM_addStyle
-// @version     0.3
+// @version     0.3.1
 // ==/UserScript==
 
 (function($) {
@@ -44,7 +44,7 @@
                 }
             }
             if (manifestUrl) {
-                return '<a href="' + manifestUrl + '" />';
+                return '<a href="http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=' + manifestUrl + '" target="_blank" />';
             } else {
                 return '';
             }
